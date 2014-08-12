@@ -2,36 +2,33 @@
 here we go /////////////
 ************************/
 body {
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-
-  background-size:cover;
-  margin-left: 0px;
-  margin-top: -5px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  background:url(img/bg1.jpg);
-  }
-  a:link {
-    text-decoration: none;
-  }
-  a:visited {
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  a:active {
-    text-decoration: none;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background- 
+background-size:cover;
+margin-left: 0px;
+margin-top: -5px;
+margin-right: 0px;
+margin-bottom: 0px;
+background:url(img/bg1.jpg) center  fixed no-repeat;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 
 header{
-  width:90%;
+  width:100%;
   height:135px;
   background-color: #778899;
-  margin-top: 10px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
   margin-left: auto;
   margin-right: auto;
 
@@ -52,7 +49,7 @@ nav{
 
 #content{
   width: 1000px;
-  height: 434px;
+  height: 810px;
   margin-top: 5px;
   margin-right: auto;
   margin-left: auto;
@@ -61,20 +58,21 @@ nav{
 
 section{
   width: 810px;
-  height: 434px;
+  height: 810px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #div1{
-  width: 400px;
-  height: 400px;
-  float: left;
-  position: relative;
-  margin-top: 50px;
-  background-image: url(img/1f.png);
-  background-position: center;
-  background-repeat: no-repeat;
+	width: 400px;
+	height: 400px;
+	float: left;
+	position: relative;
+	margin-top: 50px;
+	background-image: url(img/1f.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: inherit;
 }
 
 #div2{
@@ -89,21 +87,10 @@ section{
   background-repeat: no-repeat;
 }
 
-footer {
-  width: 90%;
-  height: 45px;
-  left: 0;
-  bottom: 0;
-  background-color: #778899;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+#div3 {
   text-align: center;
-  color: #FFFFFF;
+  font-size: 30px;
+  color: #2F4F4F;	
 }
 
 h1{
@@ -118,6 +105,18 @@ h2{
   padding-top: 20px;
   color: #F8F8FF;
 }
+
+footer {
+  width: 100%;
+  height: 35px;
+  background-color: #778899;
+  margin-top:5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 /************************
 here we go /////////////
 ************************/
